@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["de_tools"]
+namespaces = true
+
+[project]
+name = "de_tools_reports"
+version = "1.0.0"
+description = "Cool tools"
+license = { text = "Snake Corp Software License Agreement" }
