@@ -12,3 +12,6 @@ name = "de_tools_snowflake"
 version = "1.0.0"
 description = "Cool tools"
 license = { text = "Snake Corp Software License Agreement" }
+
+[project.scripts]
+test-cli-func = "de_tools.snowflake_tool:main"
