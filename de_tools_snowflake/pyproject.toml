@@ -8,7 +8,7 @@ include = ["de_tools"]
 namespaces = true
 
 [project]
-name = "Data Engineering Tools"
+name = "de_tools_snowflake"
 version = "1.0.0"
 description = "Cool tools"
 license = { text = "Snake Corp Software License Agreement" }
